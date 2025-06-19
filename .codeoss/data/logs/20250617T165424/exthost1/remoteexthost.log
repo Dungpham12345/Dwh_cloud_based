@@ -1,0 +1,36 @@
+2025-06-17 16:54:31.315 [info] Extension host with pid 1231 started
+2025-06-17 16:54:31.333 [error] Error: EEXIST: file already exists, open '/home/diomedes3737/.codeoss/data/User/workspaceStorage/e0092ac/vscode.lock'
+2025-06-17 16:54:31.360 [info] Lock '/home/diomedes3737/.codeoss/data/User/workspaceStorage/e0092ac/vscode.lock': Could not acquire lock, checking if the file is stale.
+2025-06-17 16:54:31.361 [info] Lock '/home/diomedes3737/.codeoss/data/User/workspaceStorage/e0092ac/vscode.lock': The pid 1711 appears to be gone.
+2025-06-17 16:54:31.361 [info] Lock '/home/diomedes3737/.codeoss/data/User/workspaceStorage/e0092ac/vscode.lock': Deleting a stale lock.
+2025-06-17 16:54:31.368 [info] Lock '/home/diomedes3737/.codeoss/data/User/workspaceStorage/e0092ac/vscode.lock': Lock acquired.
+2025-06-17 16:54:31.518 [info] ExtensionService#_doActivateExtension google.geminicodeassist, startup: false, activationEvent: 'onView:cloudcode.gemini.chatView'
+2025-06-17 16:54:31.519 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-06-17 16:54:31.520 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python'
+2025-06-17 16:54:33.426 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-06-17 16:54:33.448 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-06-17 16:54:33.449 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-06-17 16:54:33.449 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-06-17 16:54:33.768 [error] Error: spawn /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python-env-tools/bin/pet ENOENT
+	at ChildProcess._handle.onexit (node:internal/child_process:285:19)
+	at onErrorNT (node:internal/child_process:483:16)
+	at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2025-06-17 16:54:33.910 [info] ExtensionService#_doActivateExtension google.cloud-shell, startup: false, activationEvent: 'onCommand:cloudshell.isAuthorized'
+2025-06-17 16:54:33.949 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-06-17 16:54:33.949 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-06-17 16:54:34.380 [info] ExtensionService#_doActivateExtension hashicorp.terraform, startup: true, activationEvent: 'workspaceContains:**/*.tf,**/*.tfvars'
+2025-06-17 16:54:34.803 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1052
+2025-06-17 16:54:35.250 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-06-17 16:54:35.373 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1060
+2025-06-17 16:54:36.133 [info] Eager extensions activated
+2025-06-17 16:54:36.133 [info] ExtensionService#_doActivateExtension EditorConfig.EditorConfig, startup: false, activationEvent: 'onStartupFinished'
+2025-06-17 16:54:36.134 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-06-17 16:54:36.136 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-06-17 16:54:36.908 [info] ExtensionService#_doActivateExtension googlecloudtools.cloudcode, startup: false, activationEvent: 'onStartupFinished'
+2025-06-17 16:54:39.405 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1010
+2025-06-17 17:31:20.610 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1014
+2025-06-17 17:31:25.657 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1014
+2025-06-17 17:32:06.587 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1014
+2025-06-17 17:32:11.639 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1014
+2025-06-17 17:32:26.566 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1014
+2025-06-17 17:32:31.609 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1014

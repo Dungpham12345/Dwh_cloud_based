@@ -1,0 +1,32 @@
+2025-06-18 07:44:10.979 [warning] Dir "/home/diomedes3737/.pixi/envs" is not watchable (directory does not exist)
+2025-06-18 07:44:11.051 [info] Running installed packages checker:  {
+  id: '/bin/python',
+  sysPrefix: '/usr',
+  envType: 'Global',
+  envName: '',
+  envPath: '',
+  path: '/bin/python',
+  architecture: 3,
+  sysVersion: '3.12.3 (main, Feb  4 2025, 14:48:35) [GCC 13.3.0]',
+  version: {
+    raw: '3.12.3',
+    major: 3,
+    minor: 12,
+    patch: 3,
+    build: [],
+    prerelease: [ 'final', '0' ]
+  },
+  displayName: 'Python 3.12.3 64-bit',
+  detailedDisplayName: 'Python 3.12.3 64-bit',
+  type: undefined
+} /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/installed_check.py /home/diomedes3737/dags/requirements.txt
+2025-06-18 07:44:11.051 [info] > /bin/python /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/installed_check.py ./dags/requirements.txt
+2025-06-18 07:44:11.054 [info] Python interpreter path: /bin/python
+2025-06-18 07:44:11.129 [info] > pyenv which python
+2025-06-18 07:44:11.130 [info] cwd: .
+2025-06-18 07:44:13.123 [info] Starting Jedi language server for diomedes3737.
+2025-06-18 07:56:19.453 [info] Discover tests for workspace name: diomedes3737 - uri: /home/diomedes3737/dags/csv_elt.py
+2025-06-18 07:56:23.569 [info] Discover tests for workspace name: diomedes3737 - uri: /home/diomedes3737/dags/csv_elt.py
+2025-06-18 07:56:28.384 [info] Discover tests for workspace name: diomedes3737 - uri: /home/diomedes3737/dags/csv_elt.py
+2025-06-18 08:13:50.484 [info] Discover tests for workspace name: diomedes3737 - uri: /home/diomedes3737/dags/csv_elt.py
+2025-06-18 08:20:13.565 [info] Discover tests for workspace name: diomedes3737 - uri: /home/diomedes3737/dags/csv_elt.py

@@ -1,0 +1,130 @@
+2025-06-17 15:01:29.919 [info] [main] Log level: Info
+2025-06-17 15:01:29.919 [info] [main] Validating found git in: "git"
+2025-06-17 15:01:29.919 [info] [main] Using git "2.43.0" from "git"
+2025-06-17 15:01:29.919 [info] [Model][doInitialScan] Initial repository scan started
+2025-06-17 15:01:30.325 [info] > git rev-parse --show-toplevel [424ms]
+2025-06-17 15:01:30.365 [info] > git rev-parse --git-dir --git-common-dir [16ms]
+2025-06-17 15:01:30.386 [info] [Model][openRepository] Opened repository: /home/diomedes3737
+2025-06-17 15:01:30.642 [info] > git rev-parse --show-toplevel [31ms]
+2025-06-17 15:01:30.643 [info] > git config --get commit.template [34ms]
+2025-06-17 15:01:30.719 [info] > git rev-parse --show-toplevel [20ms]
+2025-06-17 15:01:30.735 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [30ms]
+2025-06-17 15:01:30.735 [warning] [Git][getBranch] No such branch: master
+2025-06-17 15:01:30.757 [info] > git rev-parse --show-toplevel [23ms]
+2025-06-17 15:01:30.758 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [12ms]
+2025-06-17 15:01:30.768 [info] > git status -z -uall [29ms]
+2025-06-17 15:01:30.768 [info] > git rev-parse --show-toplevel [4ms]
+2025-06-17 15:01:30.842 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [17ms]
+2025-06-17 15:01:30.842 [warning] [Git][getBranch] No such branch: master
+2025-06-17 15:01:30.843 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for master: Error: No such branch: master.
+2025-06-17 15:01:30.847 [info] > git config --get commit.template [6ms]
+2025-06-17 15:01:30.847 [info] > git rev-parse --show-toplevel [12ms]
+2025-06-17 15:01:30.861 [info] > git rev-parse --show-toplevel [7ms]
+2025-06-17 15:01:30.868 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [8ms]
+2025-06-17 15:01:30.869 [warning] [Git][getBranch] No such branch: master
+2025-06-17 15:01:31.387 [info] > git status -z -uall [514ms]
+2025-06-17 15:01:31.388 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [509ms]
+2025-06-17 15:01:31.434 [info] > git rev-parse --show-toplevel [567ms]
+2025-06-17 15:01:31.459 [info] > git check-ignore -v -z --stdin [18ms]
+2025-06-17 15:01:31.461 [info] > git rev-parse --show-toplevel [5ms]
+2025-06-17 15:01:31.475 [info] > git rev-parse --show-toplevel [5ms]
+2025-06-17 15:01:31.485 [info] > git rev-parse --show-toplevel [4ms]
+2025-06-17 15:01:31.492 [info] > git rev-parse --show-toplevel [1ms]
+2025-06-17 15:01:31.864 [info] > git rev-parse --show-toplevel [365ms]
+2025-06-17 15:01:31.882 [info] > git rev-parse --git-dir --git-common-dir [8ms]
+2025-06-17 15:01:31.889 [info] [Model][openRepository] Opened repository: /home/diomedes3737/terraform
+2025-06-17 15:01:31.893 [info] [Model][doInitialScan] Initial repository scan completed - repositories (2), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-06-17 15:01:34.260 [info] > git config --get commit.template [2360ms]
+2025-06-17 15:01:34.264 [info] > git config --get commit.template [21ms]
+2025-06-17 15:01:34.295 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [24ms]
+2025-06-17 15:01:34.311 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [18ms]
+2025-06-17 15:01:34.311 [warning] [Git][getBranch] No such branch: master
+2025-06-17 15:01:34.337 [info] > git status -z -uall [19ms]
+2025-06-17 15:01:34.337 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [10ms]
+2025-06-17 15:01:34.444 [info] > git status -z -uall [142ms]
+2025-06-17 15:01:34.445 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [135ms]
+2025-06-17 15:01:34.470 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [14ms]
+2025-06-17 15:01:34.480 [info] > git config --get commit.template [11ms]
+2025-06-17 15:01:34.482 [info] > git config --get --local branch.main.vscode-merge-base [5ms]
+2025-06-17 15:01:34.482 [warning] [Git][config] git config failed: Failed to execute git
+2025-06-17 15:01:34.498 [info] > git reflog main --grep-reflog=branch: Created from *. [9ms]
+2025-06-17 15:01:34.518 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [21ms]
+2025-06-17 15:01:34.788 [info] > git status -z -uall [263ms]
+2025-06-17 15:01:34.789 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [256ms]
+2025-06-17 15:01:34.799 [info] > git symbolic-ref --short refs/remotes/orgigin/HEAD [294ms]
+2025-06-17 15:01:34.800 [info] fatal: ref refs/remotes/orgigin/HEAD is not a symbolic ref
+2025-06-17 15:01:34.800 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2025-06-17 15:01:34.860 [info] > git check-ignore -v -z --stdin [53ms]
+2025-06-17 15:01:34.861 [info] > git check-ignore -v -z --stdin [38ms]
+2025-06-17 15:01:34.862 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [64ms]
+2025-06-17 15:01:34.879 [info] > git config --get --local branch.main.vscode-merge-base [8ms]
+2025-06-17 15:01:34.879 [warning] [Git][config] git config failed: Failed to execute git
+2025-06-17 15:01:34.895 [info] > git reflog main --grep-reflog=branch: Created from *. [5ms]
+2025-06-17 15:01:34.925 [info] > git symbolic-ref --short refs/remotes/orgigin/HEAD [21ms]
+2025-06-17 15:01:34.925 [info] fatal: ref refs/remotes/orgigin/HEAD is not a symbolic ref
+2025-06-17 15:01:34.925 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2025-06-17 15:01:40.028 [info] > git config --get commit.template [42ms]
+2025-06-17 15:01:40.055 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-06-17 15:01:40.055 [warning] [Git][getBranch] No such branch: master
+2025-06-17 15:01:40.099 [info] > git status -z -uall [28ms]
+2025-06-17 15:01:40.120 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [34ms]
+2025-06-17 15:01:45.223 [info] > git config --get commit.template [11ms]
+2025-06-17 15:01:45.224 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-06-17 15:01:45.224 [warning] [Git][getBranch] No such branch: master
+2025-06-17 15:01:45.244 [info] > git status -z -uall [10ms]
+2025-06-17 15:01:45.247 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2025-06-17 15:02:03.575 [info] > git config --get commit.template [10ms]
+2025-06-17 15:02:03.576 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-06-17 15:02:03.576 [warning] [Git][getBranch] No such branch: master
+2025-06-17 15:02:03.595 [info] > git status -z -uall [11ms]
+2025-06-17 15:02:03.599 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2025-06-17 15:02:08.636 [info] > git config --get commit.template [11ms]
+2025-06-17 15:02:08.637 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-06-17 15:02:08.637 [warning] [Git][getBranch] No such branch: master
+2025-06-17 15:02:08.657 [info] > git status -z -uall [11ms]
+2025-06-17 15:02:08.661 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [6ms]
+2025-06-17 15:25:19.040 [info] > git config --get commit.template [2ms]
+2025-06-17 15:25:19.049 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-06-17 15:25:19.049 [warning] [Git][getBranch] No such branch: master
+2025-06-17 15:25:19.062 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-06-17 15:25:19.065 [info] > git status -z -uall [10ms]
+2025-06-17 15:25:24.111 [info] > git config --get commit.template [7ms]
+2025-06-17 15:25:24.112 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-06-17 15:25:24.113 [warning] [Git][getBranch] No such branch: master
+2025-06-17 15:25:24.129 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-06-17 15:25:24.132 [info] > git status -z -uall [12ms]
+2025-06-17 15:25:41.685 [info] > git config --get commit.template [6ms]
+2025-06-17 15:25:41.686 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-06-17 15:25:41.686 [warning] [Git][getBranch] No such branch: master
+2025-06-17 15:25:41.699 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-06-17 15:25:41.701 [info] > git status -z -uall [10ms]
+2025-06-17 15:25:47.933 [info] > git config --get commit.template [7ms]
+2025-06-17 15:25:47.934 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-06-17 15:25:47.934 [warning] [Git][getBranch] No such branch: master
+2025-06-17 15:25:47.948 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-06-17 15:25:47.949 [info] > git status -z -uall [9ms]
+2025-06-17 15:26:17.371 [info] > git config --get commit.template [6ms]
+2025-06-17 15:26:17.372 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-06-17 15:26:17.372 [warning] [Git][getBranch] No such branch: master
+2025-06-17 15:26:17.387 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-06-17 15:26:17.389 [info] > git status -z -uall [10ms]
+2025-06-17 15:26:22.430 [info] > git config --get commit.template [7ms]
+2025-06-17 15:26:22.432 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-06-17 15:26:22.432 [warning] [Git][getBranch] No such branch: master
+2025-06-17 15:26:22.446 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-06-17 15:26:22.448 [info] > git status -z -uall [10ms]
+2025-06-17 15:26:40.000 [info] > git config --get commit.template [6ms]
+2025-06-17 15:26:40.001 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-06-17 15:26:40.001 [warning] [Git][getBranch] No such branch: master
+2025-06-17 15:26:40.019 [info] > git status -z -uall [12ms]
+2025-06-17 15:26:40.025 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [13ms]
+2025-06-17 15:27:22.308 [info] > git config --get commit.template [6ms]
+2025-06-17 15:27:22.309 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-06-17 15:27:22.309 [warning] [Git][getBranch] No such branch: master
+2025-06-17 15:27:22.323 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-06-17 15:27:22.325 [info] > git status -z -uall [10ms]
+2025-06-17 15:27:27.368 [info] > git config --get commit.template [7ms]
+2025-06-17 15:27:27.368 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-06-17 15:27:27.369 [warning] [Git][getBranch] No such branch: master
+2025-06-17 15:27:27.384 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-06-17 15:27:27.386 [info] > git status -z -uall [11ms]

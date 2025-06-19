@@ -1,0 +1,75 @@
+2025-06-18 04:32:34.202 [info] [main] Log level: Info
+2025-06-18 04:32:34.202 [info] [main] Validating found git in: "git"
+2025-06-18 04:32:34.202 [info] [main] Using git "2.43.0" from "git"
+2025-06-18 04:32:34.202 [info] [Model][doInitialScan] Initial repository scan started
+2025-06-18 04:32:34.202 [info] > git rev-parse --show-toplevel [59ms]
+2025-06-18 04:32:34.209 [info] > git rev-parse --git-dir --git-common-dir [24ms]
+2025-06-18 04:32:34.231 [info] [Model][openRepository] Opened repository: /home/diomedes3737
+2025-06-18 04:32:34.313 [info] > git rev-parse --show-toplevel [62ms]
+2025-06-18 04:32:34.314 [info] > git config --get commit.template [69ms]
+2025-06-18 04:32:34.706 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [272ms]
+2025-06-18 04:32:34.707 [warning] [Git][getBranch] No such branch: master
+2025-06-18 04:32:34.734 [info] > git status -z -uall [21ms]
+2025-06-18 04:32:34.734 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [15ms]
+2025-06-18 04:32:34.748 [info] > git rev-parse --show-toplevel [17ms]
+2025-06-18 04:32:34.838 [info] > git check-ignore -v -z --stdin [26ms]
+2025-06-18 04:32:34.840 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [40ms]
+2025-06-18 04:32:34.840 [warning] [Git][getBranch] No such branch: master
+2025-06-18 04:32:34.841 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for master: Error: No such branch: master.
+2025-06-18 04:32:34.858 [info] > git config --get commit.template [23ms]
+2025-06-18 04:32:34.859 [info] > git rev-parse --show-toplevel [30ms]
+2025-06-18 04:32:35.494 [info] > git rev-parse --show-toplevel [119ms]
+2025-06-18 04:32:35.513 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [29ms]
+2025-06-18 04:32:35.513 [warning] [Git][getBranch] No such branch: master
+2025-06-18 04:32:38.380 [info] > git rev-parse --show-toplevel [2873ms]
+2025-06-18 04:32:38.440 [info] > git status -z -uall [2918ms]
+2025-06-18 04:32:38.447 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2919ms]
+2025-06-18 04:32:38.494 [info] > git rev-parse --show-toplevel [104ms]
+2025-06-18 04:32:38.894 [info] > git rev-parse --show-toplevel [365ms]
+2025-06-18 04:32:38.916 [info] > git rev-parse --show-toplevel [6ms]
+2025-06-18 04:32:38.931 [info] > git rev-parse --show-toplevel [4ms]
+2025-06-18 04:32:38.978 [info] > git rev-parse --show-toplevel [29ms]
+2025-06-18 04:32:38.991 [info] > git rev-parse --show-toplevel [4ms]
+2025-06-18 04:32:39.065 [info] > git rev-parse --show-toplevel [61ms]
+2025-06-18 04:32:39.188 [info] > git rev-parse --git-dir --git-common-dir [28ms]
+2025-06-18 04:32:39.195 [info] [Model][openRepository] Opened repository: /home/diomedes3737/terraform
+2025-06-18 04:32:39.196 [info] [Model][doInitialScan] Initial repository scan completed - repositories (2), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-06-18 04:32:39.256 [info] > git show --textconv :dags/scd2.py [48ms]
+2025-06-18 04:32:39.256 [info] > git ls-files --stage -- dags/scd2.py [38ms]
+2025-06-18 04:32:39.279 [info] > git hash-object -t tree /dev/null [13ms]
+2025-06-18 04:32:39.279 [warning] [GitFileSystemProvider][stat] File not found - git:/home/diomedes3737/dags/scd2.py.git?%7B%22path%22%3A%22%2Fhome%2Fdiomedes3737%2Fdags%2Fscd2.py%22%2C%22ref%22%3A%22%22%7D
+2025-06-18 04:32:39.288 [info] > git config --get commit.template [39ms]
+2025-06-18 04:32:39.288 [info] > git ls-files --stage -- main.tf [52ms]
+2025-06-18 04:32:39.299 [info] > git hash-object -t tree /dev/null [22ms]
+2025-06-18 04:32:39.299 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/diomedes3737/dags/scd2.py.git?%7B%22path%22%3A%22%2Fhome%2Fdiomedes3737%2Fdags%2Fscd2.py%22%2C%22ref%22%3A%22%22%7D
+2025-06-18 04:32:39.333 [info] > git show --textconv :main.tf [106ms]
+2025-06-18 04:32:39.334 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [22ms]
+2025-06-18 04:32:39.357 [info] > git cat-file -s 8012d5c18d1a4ae5f51e28d5fd8b1de2da8a5ee2 [60ms]
+2025-06-18 04:32:39.361 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2025-06-18 04:32:39.380 [info] > git status -z -uall [36ms]
+2025-06-18 04:32:39.421 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [19ms]
+2025-06-18 04:32:39.439 [info] > git config --get commit.template [20ms]
+2025-06-18 04:32:39.440 [info] > git config --get --local branch.main.vscode-merge-base [7ms]
+2025-06-18 04:32:39.440 [warning] [Git][config] git config failed: Failed to execute git
+2025-06-18 04:32:39.467 [info] > git reflog main --grep-reflog=branch: Created from *. [14ms]
+2025-06-18 04:32:39.479 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [15ms]
+2025-06-18 04:32:39.507 [info] > git status -z -uall [16ms]
+2025-06-18 04:32:39.508 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [6ms]
+2025-06-18 04:32:39.521 [info] > git symbolic-ref --short refs/remotes/orgigin/HEAD [43ms]
+2025-06-18 04:32:39.521 [info] fatal: ref refs/remotes/orgigin/HEAD is not a symbolic ref
+2025-06-18 04:32:39.521 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2025-06-18 04:32:39.524 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-06-18 04:32:39.554 [info] > git config --get --local branch.main.vscode-merge-base [20ms]
+2025-06-18 04:32:39.554 [warning] [Git][config] git config failed: Failed to execute git
+2025-06-18 04:32:39.567 [info] > git blame --root --incremental 95ab591c14fcce34fe768afd8f8af3c706933ed5 -- main.tf [15ms]
+2025-06-18 04:32:39.573 [info] > git reflog main --grep-reflog=branch: Created from *. [10ms]
+2025-06-18 04:32:39.589 [info] > git symbolic-ref --short refs/remotes/orgigin/HEAD [4ms]
+2025-06-18 04:32:39.589 [info] fatal: ref refs/remotes/orgigin/HEAD is not a symbolic ref
+2025-06-18 04:32:39.589 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2025-06-18 04:32:39.861 [info] > git check-ignore -v -z --stdin [16ms]
+2025-06-18 04:32:39.862 [info] > git check-ignore -v -z --stdin [4ms]
+2025-06-18 04:32:41.262 [info] > git config --get commit.template [27ms]
+2025-06-18 04:32:41.289 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [10ms]
+2025-06-18 04:32:41.289 [warning] [Git][getBranch] No such branch: master
+2025-06-18 04:32:41.332 [info] > git status -z -uall [26ms]
+2025-06-18 04:32:41.355 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [27ms]

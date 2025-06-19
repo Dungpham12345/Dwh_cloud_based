@@ -1,0 +1,16 @@
+2025-06-18 19:35:03.813 [warning] Dir "/home/diomedes3737/.pixi/envs" is not watchable (directory does not exist)
+2025-06-18 19:35:03.813 [info] Python interpreter path: /bin/python
+2025-06-18 19:35:04.453 [info] > pyenv which python
+2025-06-18 19:35:04.454 [info] cwd: .
+2025-06-18 19:35:08.279 [info] Starting Jedi language server for diomedes3737.
+2025-06-18 19:51:59.082 [info] Discover tests for workspace name: diomedes3737 - uri: /home/diomedes3737/dags/scd2.py
+2025-06-18 19:52:01.197 [info] Discover tests for workspace name: diomedes3737 - uri: /home/diomedes3737/dags/scd2.py
+2025-06-18 19:52:09.781 [info] Discover tests for workspace name: diomedes3737 - uri: /home/diomedes3737/dags/scd2.py
+2025-06-18 19:52:38.787 [info] Discover tests for workspace name: diomedes3737 - uri: /home/diomedes3737/dags/scd2.py
+2025-06-18 19:52:40.338 [info] Discover tests for workspace name: diomedes3737 - uri: /home/diomedes3737/dags/scd2.py
+2025-06-18 19:54:15.539 [info] Discover tests for workspace name: diomedes3737 - uri: /home/diomedes3737/dags/scd2.py
+2025-06-18 19:54:19.305 [info] Discover tests for workspace name: diomedes3737 - uri: /home/diomedes3737/dags/scd2.py
+2025-06-18 19:54:22.861 [info] Discover tests for workspace name: diomedes3737 - uri: /home/diomedes3737/dags/scd2.py
+2025-06-18 19:55:24.252 [info] Discover tests for workspace name: diomedes3737 - uri: /home/diomedes3737/dags/scd2.py
+2025-06-18 19:55:26.102 [info] Discover tests for workspace name: diomedes3737 - uri: /home/diomedes3737/dags/scd2.py
+2025-06-18 19:55:27.458 [info] Discover tests for workspace name: diomedes3737 - uri: /home/diomedes3737/dags/scd2.py

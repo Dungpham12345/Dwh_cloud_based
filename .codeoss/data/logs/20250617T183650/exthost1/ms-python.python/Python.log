@@ -1,0 +1,8 @@
+2025-06-17 18:36:57.962 [warning] Dir "/home/diomedes3737/.pixi/envs" is not watchable (directory does not exist)
+2025-06-17 18:36:57.962 [info] Python interpreter path: /bin/python
+2025-06-17 18:36:57.977 [info] > pyenv which python
+2025-06-17 18:36:57.977 [info] cwd: .
+2025-06-17 18:37:00.558 [info] Starting Jedi language server for diomedes3737.
+2025-06-17 18:47:09.295 [info] Discover tests for workspace name: diomedes3737 - uri: /home/diomedes3737/dags/scd2.py
+2025-06-17 18:47:18.512 [info] Discover tests for workspace name: diomedes3737 - uri: /home/diomedes3737/dags/scd2.py
+2025-06-17 18:47:24.158 [info] Discover tests for workspace name: diomedes3737 - uri: /home/diomedes3737/dags/scd2.py
