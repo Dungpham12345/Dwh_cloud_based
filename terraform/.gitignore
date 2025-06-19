@@ -1,0 +1,10 @@
+cat <<EOF > .gitignore
+# Ignore Terraform-generated files
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.backup
+*.log
+*.json
+EOF
